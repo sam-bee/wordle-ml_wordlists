@@ -5,8 +5,8 @@ Part of the Wordle ML project. These wordlists represent 5-letter words that you
 
 ## Number of Words
 
-12,946 valid guesses
-2,308 valid solutions
+- 12,946 valid guesses
+- 2,308 valid solutions
 
 The solutions are a subset of the guesses.
 
