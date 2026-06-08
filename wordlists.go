@@ -8,10 +8,17 @@ var validGuessesCSV string
 //go:embed data/wordlist-valid-solutions.csv
 var validSolutionsCSV string
 
+//go:embed data/wordlist-action-space.csv
+var actionSpaceCSV string
+
 func ValidGuessesCSV() string {
 	return validGuessesCSV
 }
 
 func ValidSolutionsCSV() string {
 	return validSolutionsCSV
+}
+
+func ActionSpaceCSV() string {
+	return actionSpaceCSV
 }
